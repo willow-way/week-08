@@ -5,7 +5,7 @@ from openai import OpenAI
 import tiktoken
 
 
-if load_dotenv('.env')
+if load_dotenv('.env'):
     # for local development
     OPENAI_KEY = os.getenv('OPENAI_API_KEY')
 else:
